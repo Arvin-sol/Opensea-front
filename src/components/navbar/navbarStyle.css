@@ -1,0 +1,98 @@
+.w-10{
+    width: 150px;
+}
+.h-1000{
+    height: 680%;
+}
+ul{
+    list-style: none;
+}
+.nav--img{
+    width: 30%;
+}
+a:hover,a:active,a:link{
+    text-decoration: none;
+}
+.search--input{
+    width: 20%;
+    height: 50px;
+    border: 2px solid #4C505C !important;    
+    border-left: none !important;
+    background-color: #04111D !important ;   
+}
+.input-group{
+    top: 10px;
+}
+.input-group-text{
+    color: #8A939B!important;
+    background-color: #04111D !important;
+    border: 2px solid #4C505C !important; 
+    border-right:none !important;
+}
+.nav--bar{
+    top: 0px;
+    height: 13%;
+    text-align: center;
+    z-index: 10;
+    position: sticky;
+    background-color: #04111D;
+    color: #8A939B;
+    box-shadow: rgba(0, 0, 0, 0.116) 2px 2px 2px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.wallet--btn{
+    background-color: #04111D ;
+    border: none;
+    
+}
+.wallet{
+    background-color: rgba(0, 0, 0, 0.505);
+}
+.wallet--connect--list{
+    background-color: #202225;
+    right: 0;
+    z-index: 1000;
+    position: absolute;
+}
+.wallet--header{
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+.metamask--btn{
+    background-color: none;
+    width: 95%;
+    border: #000000 solid 1px;
+    align-items: center;
+    padding:5% 2% 5% 5%;
+    border-radius: 10px;
+}
+.metamask--btn:hover{
+    background-color: #4C505C;
+    cursor: pointer;
+}
+.metamask--btn--h5{
+    background-color: rgb(70, 70, 254);
+    padding: 5px 5px 5px 5px;
+    border-radius: 7px;
+    width: 100%;
+}
+.close--btn{
+    background-color: #202225;
+    color: white;
+    border: none;
+}
+.disconnect--btn{
+    background-color: rgb(70, 70, 254);
+    color: white;
+    border: none;
+    height:40px;
+    border-radius: 7px;
+}
+.wallet--address{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.text-secondary:hover{
+    color: #4C505C !important;
+}

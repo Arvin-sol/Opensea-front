@@ -1,0 +1,30 @@
+.create--container{
+    min-height: 100%;
+}
+.create--btn{
+    height: 3rem;
+    width: 15%;
+    background-color: rgb(45, 45, 255);
+    border: none;
+    border-radius: 7px;
+    top: 40%;
+    left: 42%;
+    position: absolute;
+}
+.create--btn:hover{
+    background-color: rgb(75, 75, 255);
+}
+.create--btn--sumbit{
+    height: 3rem;
+    width: 15%;
+    background-color: rgb(45, 45, 255);
+    border: none;
+    border-radius: 7px;
+}
+.input--group{
+    border: none;
+    border-radius: 8px;
+    background-color: #303339;
+    color: white;
+    height:70%;
+}

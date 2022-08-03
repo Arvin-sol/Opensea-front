@@ -1,0 +1,30 @@
+.homepage--conntainer{
+    margin: 0px;
+}
+.div-1{
+    background-image: url('./monkai.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.div-1-cover{
+    background-color: #202225c1;
+    backdrop-filter: blur(1rem);
+    z-index: 1;
+}
+.card--div{
+    width: 40%;
+}
+.pt-6{
+    padding-top: 7%;
+}
+.div--items{
+    width: 40%;
+    padding-top: 2%;
+}
+.a:link,a:visited,a:active {
+    text-decoration: none;
+}
+.h-30{
+    height: 35%;
+}

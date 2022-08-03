@@ -1,0 +1,16 @@
+.card{
+    z-index: 0;
+    background-color: #303339 !important;
+}
+.items{
+    height: 7vh;
+    margin-top: 3%;
+}
+.img{
+    width: 100%;
+}
+.profile--img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}

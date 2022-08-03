@@ -1,0 +1,24 @@
+.bg--container{
+    background-color: #202225;
+    min-height: 100%;
+}
+
+.nftpage--header{
+    background-image: url('./NFT-header3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 50%;
+}
+.pt-7{
+    padding-top: 15%;
+}
+.nft-card{
+    max-height: 63%;
+    min-height: 60%;
+}
+.header--items{
+    background-color: #2b2e32;
+    border-bottom:solid black 1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

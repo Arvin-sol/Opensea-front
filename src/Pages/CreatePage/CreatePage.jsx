@@ -54,7 +54,7 @@ const CreatePage = ()=>{
     }
 
     function handleSumbit(){
-        axios.post('http://localhost:5000/posts',{
+        axios.post(`${process.env.REACT_APP_API}`,{
             Image:input1,
             Name:input2,
             Price:input3,

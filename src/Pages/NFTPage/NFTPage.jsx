@@ -13,7 +13,7 @@ const NFTPage = ()=>{
     const [Database , SetDatabase] = useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:5000/posts')
+        axios.get(`${process.env.REACT_APP_API}`)
         .then((data)=>{
             SetDatabase(data.data)
         }).catch((err)=>console.log(err))

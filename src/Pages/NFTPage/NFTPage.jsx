@@ -13,7 +13,7 @@ const NFTPage = ()=>{
     const [Database , SetDatabase] = useState([])
 
     useEffect(()=>{
-        axios.get(`${process.env.REACT_APP_API}`)
+        axios.get('https://opensea-server.herokuapp.com/posts')
         .then((data)=>{
             SetDatabase(data.data)
         }).catch((err)=>console.log(err))

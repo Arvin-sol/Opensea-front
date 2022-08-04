@@ -54,7 +54,7 @@ const CreatePage = ()=>{
     }
 
     function handleSumbit(){
-        axios.post(`${process.env.REACT_APP_API}`,{
+        axios.post('https://opensea-server.herokuapp.com/posts',{
             Image:input1,
             Name:input2,
             Price:input3,
